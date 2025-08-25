@@ -1,0 +1,101 @@
+/* PASTEL STYLE COLORS */
+
+/* ---------- BODY + CONTAINER ---------- */
+
+body 
+{
+    background: #91ddcf;
+    color: #222222;
+}
+
+.container 
+{
+    background: #f4f4f4;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+
+/* ---------- HEADERS ---------- */
+
+.header_1_1 
+{ 
+    color: #577c55; 
+}
+
+.header_3_1 
+{ 
+    color: #d37d40; 
+}
+
+h2 
+{
+    color: #7f55b1;
+    border-bottom-color: #7f55b1;
+}
+
+
+/* ---------- LABELS ---------- */
+
+label[for="theme-selector"] 
+{ 
+    color: #e16a54; 
+}
+
+#theme-selector 
+{
+    color: #2c3e50;
+    background-color: #f5f3f3;
+}
+
+#theme-selector option 
+{
+    color: #00003a;
+    background-color: #f5f3f3;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+.section_1,
+.section_2,
+.section_3,
+.section_4,
+.section_5
+{
+    color: #222222;
+}
+
+.section_2_class_1 
+{
+    color: #2c7ed6;
+}
+
+.section_2_class_1::marker 
+{
+    color: #222222;
+}
+
+
+/* ---------- HIGHLIGHT_LINE ---------- */
+
+.highlight_line_1,
+.highlight_line_2,
+.highlight_line_3 
+{
+    color: #295f98;
+}
+
+
+/* ---------- LINKS ---------- */
+
+a 
+{
+    color: #aa4545;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}

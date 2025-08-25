@@ -1,0 +1,81 @@
+/* STYLE LAYOUT 1 SIMPLE */
+
+/* ---------- BODY + CONTAINER ---------- */
+
+.container 
+{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+/* ---------- HEADERS ---------- */
+
+h1, h2, h3 
+{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.header_1_1 
+{
+    margin-top: -10px;
+}
+
+.header_3_1 
+{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+/* ---------- LABELS ---------- */
+
+label[for="theme-selector"] 
+{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+.section_1, .section_2, .section_3, .section_4, .section_5 
+{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.section_2_class_1 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -1px 20px;
+    list-style-position: inside;
+}
+
+.section_4_class_1 li 
+{
+    margin-bottom: 10px;
+}
+
+.section_4_class_1 .highlight_line_3 
+{
+    display: inline-block;
+    min-width: 80px;
+}
+
+.section_5_class_1
+{
+    margin-bottom: -20px;
+}
+
+
+/* ---------- HIGHLIGHT_LINE ---------- */
+
+
+
+/* ---------- LINKS ---------- */
