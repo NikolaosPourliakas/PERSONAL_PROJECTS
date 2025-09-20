@@ -1,10 +1,22 @@
-HTML file for my personal bio.
+# Personal Bio HTML
 
-The code is in the BIO_COD folder.
-Images of the page are in the BIO_PDF folder.
+A simple HTML personal bio page with a **theme switcher**.
 
-The viewer of the page can press the "Choose Theme" button to change the format.
-I used 3 variations for simple, neon and pastel color themes.
+## Folders
 
-The information of the user can be changed in the BIO_main.html file.
-New color themes can be used by changing the css files.
+- `BIO_COD/` – HTML & CSS code.
+- `BIO_PDF/` – Page images/screenshots.
+
+## Features
+
+- **Theme Switcher**: Click **"Choose Theme"** to toggle color themes.
+- **Themes Included**: Simple, Neon, Pastel.
+- **Customizable Content**: Update info in `BIO_main.html`.
+- **Add New Themes**: Edit/add CSS files.
+
+## Usage
+
+1. Open `BIO_main.html` in a browser.
+2. Click **"Choose Theme"** to switch themes.
+3. Edit HTML to update your bio.
+4. Edit/add CSS for new color themes.
