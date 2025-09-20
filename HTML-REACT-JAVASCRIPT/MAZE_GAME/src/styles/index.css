@@ -1,0 +1,9 @@
+/* File: 
+			/styles/index.css
+   Purpose:
+			Central import for all other CSS files */
+
+@import "./Layout.css";
+@import "./Buttons.css";
+@import "./Maze.css";
+@import "./Arrows.css";

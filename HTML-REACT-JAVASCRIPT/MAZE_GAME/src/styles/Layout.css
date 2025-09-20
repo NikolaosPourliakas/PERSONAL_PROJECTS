@@ -1,0 +1,41 @@
+/* File: 
+			/styles/Layout.css
+   Purpose: 
+			Layout of main app, maze container, 
+			top panel, counters (moves/time/best) */
+
+
+/* --- Main App Layout --- */
+
+.app { display:flex; flex-direction:column; align-items:center; 
+padding:10px; min-height:100vh; background-color:#f0f0f0; }
+
+
+/* --- Maze Container --- */
+
+.maze-container { width:98vmin; height:98vmin; display:flex; 
+flex-direction:column; align-items:center; }
+
+
+/* --- Top Panel (header with counters and buttons) --- */
+
+.top-panel { width:100%; display:flex; justify-content:space-between; 
+align-items:center; margin-bottom:0.5rem; padding:0.5em; 
+box-sizing:border-box; background-color:#ddd; border-radius:8px; }
+
+
+/* --- Counters (container, lines, boxes) --- */
+
+.counters-box { display:flex; flex-direction:column; gap:1em; }
+
+.counter-line { display:flex; align-items:center; gap:1em; }
+
+.counter-box { border:2px solid #666; border-radius:10px; padding:0.3em 0.5em; 
+background:white; font-size:clamp(1rem,1.2vw,1rem); text-align:center; }
+
+.best-box { background:#ffe; }
+
+
+/* --- Global Page Reset (prevent scrollbars) --- */
+
+html, body { margin:0; padding:0; height:100%; overflow:hidden; }

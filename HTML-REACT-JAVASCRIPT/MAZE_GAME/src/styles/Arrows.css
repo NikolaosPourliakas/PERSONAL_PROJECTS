@@ -1,0 +1,37 @@
+/* File: 
+			/styles/Arrow.css
+   Purpose: 
+			Styles for arrow navigation buttons 
+			and their container frame */
+
+
+/* --- Container Frame for Arrows --- */
+
+.arrow-buttons-frame { width:100px; height:100px; position:relative; }
+
+
+/* --- Base Arrow Button Style --- */
+
+.arrow-button { width:40px; height:40px; font-size:16px; 
+font-weight:bold; color:white; background:black; border:2px inset white; 
+border-radius:4px; cursor:pointer; transition:0.1s; }
+
+
+/* --- Hover Effect --- */
+
+.arrow-button:hover { background:gray; transform:scale(1.05); }
+
+
+/* --- Arrow Positions --- */
+
+.arrow-button.up { position:absolute; top:0; left:30%; 
+transform:translateX(-50%); }
+
+.arrow-button.down { position:absolute; bottom:0; left:30%; 
+transform:translateX(-50%); }
+
+.arrow-button.left { position:absolute; top:50%; left:-30%; 
+transform:translateY(-50%); }
+
+.arrow-button.right { position:absolute; top:50%; right:11%; 
+transform:translateY(-50%); }
