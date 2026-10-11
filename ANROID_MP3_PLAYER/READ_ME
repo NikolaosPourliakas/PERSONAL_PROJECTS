@@ -1,1 +1,73 @@
+# 🎵 My MP3 Player
 
+A customizable Android MP3 player built with **Kotlin** and **Jetpack Compose**.
+
+## ✨ Features
+
+- 🎶 Play local MP3 audio files
+- ⏯️ Playback controls
+- 🎚️ Seek through tracks using a progress bar
+- ⏱️ Display current playback time and total duration
+- 🎨 Customizable player themes and colors
+- 🖌️ Theme selection with visual previews
+- 📂 Playlist organization
+- ⚙️ Settings screen for player customization
+- 🌙 Custom interface styling
+
+## 🛠️ Built With
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Material 3**
+- **Android Studio**
+
+## 📋 Requirements
+
+- Android Studio
+- Android SDK compatible with the project's Gradle configuration
+- A compatible Android device or emulator
+- Local audio files for playback
+
+## 🚀 Getting Started
+
+1. Clone or download this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle to sync and download the required dependencies.
+4. Connect an Android device or start an emulator.
+5. Build and run the application.
+
+## 🎧 Using the Player
+
+1. Open the app and select an available audio track.
+2. Use the playback controls to manage playback.
+3. Drag the progress bar to seek through the current track.
+4. Open Settings to customize the player’s appearance.
+5. Select a theme or adjust colors to personalize the interface.
+6. Organize your playlists using the playlist settings.
+
+*Some options may vary depending on the current implementation and device permissions.*
+
+## 📁 Project Structure
+
+The project is organized into packages for the player interface, settings, playlists, and themes.
+
+- `player/` — playback-related UI components
+- `settings/` — settings pages and navigation
+- `playlists/` — playlist-related data models and functionality
+- `themes/` — theme definitions and visual customization
+
+## 🔒 Permissions
+
+The app may require permission to access audio files on the device. The exact permissions depend on the Android versions targeted by the project.
+
+## 📌 Project Status
+
+The project is currently under development, with a working player interface and customization features.
+
+## 📄 License
+
+No license has been specified yet. Unless a license is added to the repository, standard copyright restrictions apply.
+
+---
+
+Made with using Kotlin and Jetpack Compose.
