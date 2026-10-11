@@ -2,7 +2,9 @@
 
 ## 📱 INSTALLATION
 
-To install the app on your Android smartphone, download the `app-debug.apk` file from the repository, open it, and follow the on-screen instructions.
+To install the app on your Android smartphone, download the `app-debug.zip` file 
+and extract the `app-debug.apk` file from the repository, open it, 
+and follow the on-screen instructions.
 
 **Note:** You may need to allow installation from unknown sources in your Android settings.
 
