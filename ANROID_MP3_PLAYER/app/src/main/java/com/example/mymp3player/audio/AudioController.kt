@@ -60,7 +60,7 @@ class AudioController(context: Context) {
                 }
 
                 controller = mediaController
-                mediaController.shuffleModeEnabled = false
+                mediaController.shuffleModeEnabled = pendingRandom
 
                 mediaController.addListener(
                     object : Player.Listener {
@@ -326,10 +326,12 @@ class AudioController(context: Context) {
         return index
     }
 
+
     fun setRandom(enabled: Boolean) {
         pendingRandom = enabled
+        controller?.shuffleModeEnabled = enabled
     }
-
+    
     fun seekToPosition(position: Long) {
         controller?.seekTo(position.coerceAtLeast(0L))
     }
