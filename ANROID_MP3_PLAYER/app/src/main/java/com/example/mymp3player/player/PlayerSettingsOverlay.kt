@@ -148,11 +148,6 @@ fun PlayerSettingsOverlay(
                             onPlayInBackgroundChange = { enabled ->
                                 uiController.setPlayInBackground(enabled)
                             },
-                            pauseOnHeadphoneDisconnect =
-                                state.pauseOnHeadphoneDisconnect,
-                            onPauseOnHeadphoneDisconnectChange = { enabled ->
-                                uiController.setPauseOnHeadphoneDisconnect(enabled)
-                            },
                             animateSongTitle = state.animateSongTitle,
                             onAnimateSongTitleChange = { enabled ->
                                 uiController.setAnimateSongTitle(enabled)
