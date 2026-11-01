@@ -90,6 +90,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         audioController = AudioController(this)
+        audioController.setRandom(uiController.state.value.isRandom)
         buttons = ButtonsController(audio = audioController,ui = uiController)
 
         // AUDIO CALLBACKS
