@@ -24,12 +24,10 @@ import androidx.compose.foundation.layout.size
 @Composable
 fun SettingsMainPage(
     playInBackground: Boolean,
-    pauseOnHeadphoneDisconnect: Boolean,
     animateSongTitle: Boolean,
     keepScreenOn: Boolean,
     onKeepScreenOnChange: (Boolean) -> Unit,
     onPlayInBackgroundChange: (Boolean) -> Unit,
-    onPauseOnHeadphoneDisconnectChange: (Boolean) -> Unit,
     onAnimateSongTitleChange: (Boolean) -> Unit,
     onMusicFolderClick: () -> Unit,
     onTemplatesClick: () -> Unit,
@@ -146,34 +144,6 @@ fun SettingsMainPage(
 
             Text(
                 text = "Keep Screen On",
-                color = settingsText,
-                fontSize = 16.sp
-            )
-        }
-
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .clickable {
-                    onPauseOnHeadphoneDisconnectChange(!pauseOnHeadphoneDisconnect)
-                }
-                .padding(horizontal = 12.dp, vertical = 3.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Checkbox(
-                checked = pauseOnHeadphoneDisconnect,
-                onCheckedChange = onPauseOnHeadphoneDisconnectChange,
-                colors = CheckboxDefaults.colors(
-                    checkedColor = settingsActive,
-                    uncheckedColor = settingsSecondaryText,
-                    checkmarkColor = Color.White
-                )
-            )
-
-            Spacer(modifier = Modifier.width(8.dp))
-
-            Text(
-                text = "Unplugged Headphones Pause",
                 color = settingsText,
                 fontSize = 16.sp
             )
