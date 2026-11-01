@@ -21,6 +21,7 @@ class PlaybackService : MediaSessionService() {
         super.onCreate()
 
         player = ExoPlayer.Builder(this).build()
+        player.setHandleAudioBecomingNoisy(true)
 
         val audioAttributes = AudioAttributes.Builder()
             .setUsage(C.USAGE_MEDIA)
